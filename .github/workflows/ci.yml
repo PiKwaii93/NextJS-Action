@@ -23,7 +23,7 @@ jobs:
 
       # Construire l'image Docker
       - name: Build Docker image
-        run: docker build -t nextjs-docker .
+        run: docker build -t nextjs-docker ./nextjs-docker
 
       # Tester l'application
       - name: Run tests
